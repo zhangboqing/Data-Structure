@@ -1,15 +1,15 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B92CC34E9886EFE4C36CB4EF54CC63D1D62E81E2",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AB60087A4BF930E5CC6B67705AB5DDE9E0C62208",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "B92CC34E9886EFE4C36CB4EF54CC63D1D62E81E2" : 0,
+    "AB60087A4BF930E5CC6B67705AB5DDE9E0C62208" : 0,
     "A159DCB855E2B2F477B110A6CF651C3CDEC8E0A6" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "12C20F93-4227-4369-A880-72D533B3EEDA",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "B92CC34E9886EFE4C36CB4EF54CC63D1D62E81E2" : "Data%20Structure\/",
+    "AB60087A4BF930E5CC6B67705AB5DDE9E0C62208" : "Data%20Structure\/",
     "A159DCB855E2B2F477B110A6CF651C3CDEC8E0A6" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "数据结构",
@@ -24,7 +24,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhangboqing\/-.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B92CC34E9886EFE4C36CB4EF54CC63D1D62E81E2"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB60087A4BF930E5CC6B67705AB5DDE9E0C62208"
     }
   ]
 }

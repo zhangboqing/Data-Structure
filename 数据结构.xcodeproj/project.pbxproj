@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0E49A31CFC851400735C08 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AF0E49A21CFC851400735C08 /* main.c */; };
 		AFFA02EE1CEF0257006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA02ED1CEF0257006C184E /* main.c */; };
 		AFFA02FE1CF023EA006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA02FD1CF023EA006C184E /* main.c */; };
 		AFFA030E1CF0858F006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA030D1CF0858F006C184E /* main.c */; };
@@ -21,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AF0E499E1CFC851300735C08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		AFFA02E91CEF0257006C184E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +133,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF0E49A01CFC851300735C08 /* 串的堆分配存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "串的堆分配存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0E49A21CFC851400735C08 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AF0E49A71CFC852100735C08 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
+		AF0E49A81CFC855700735C08 /* c4-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c4-2.h"; sourceTree = "<group>"; };
+		AF0E49A91CFC862600735C08 /* bo4-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo4-2.h"; sourceTree = "<group>"; };
 		AFFA02EB1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "抽象结构类型的表示与实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFA02ED1CEF0257006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA02F31CEF02BE006C184E /* c1-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c1-1.h"; sourceTree = "<group>"; };
@@ -184,6 +199,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AF0E499D1CFC851300735C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFFA02E81CEF0257006C184E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +286,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF0E49A11CFC851300735C08 /* 串的堆分配存储结构 */ = {
+			isa = PBXGroup;
+			children = (
+				AF0E49A21CFC851400735C08 /* main.c */,
+				AF0E49A71CFC852100735C08 /* c1.h */,
+				AF0E49A81CFC855700735C08 /* c4-2.h */,
+				AF0E49A91CFC862600735C08 /* bo4-2.h */,
+			);
+			path = "串的堆分配存储结构";
+			sourceTree = "<group>";
+		};
 		AFFA02C91CEF01A3006C184E = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +311,7 @@
 				AFFA035F1CF5EBD8006C184E /* 队列的链式存储结构（单链队列） */,
 				AFFA036F1CF7F88E006C184E /* 队列的顺序表示和实现（循环队列） */,
 				AFFA037D1CF86BA9006C184E /* 串的定长顺序存储结构 */,
+				AF0E49A11CFC851300735C08 /* 串的堆分配存储结构 */,
 				AFFA02D31CEF01A3006C184E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -296,6 +330,7 @@
 				AFFA035E1CF5EBD8006C184E /* 队列的链式存储结构（单链队列） */,
 				AFFA036E1CF7F88E006C184E /* 队列的顺序表示和实现（循环队列） */,
 				AFFA037C1CF86BA9006C184E /* 串的定长顺序存储结构 */,
+				AF0E49A01CFC851300735C08 /* 串的堆分配存储结构 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -428,6 +463,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AF0E499F1CFC851300735C08 /* 串的堆分配存储结构 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0E49A61CFC851400735C08 /* Build configuration list for PBXNativeTarget "串的堆分配存储结构" */;
+			buildPhases = (
+				AF0E499C1CFC851300735C08 /* Sources */,
+				AF0E499D1CFC851300735C08 /* Frameworks */,
+				AF0E499E1CFC851300735C08 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "串的堆分配存储结构";
+			productName = "串的堆分配存储结构";
+			productReference = AF0E49A01CFC851300735C08 /* 串的堆分配存储结构 */;
+			productType = "com.apple.product-type.tool";
+		};
 		AFFA02EA1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFFA02EF1CEF0257006C184E /* Build configuration list for PBXNativeTarget "抽象结构类型的表示与实现" */;
@@ -624,6 +676,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhangboqing;
 				TargetAttributes = {
+					AF0E499F1CFC851300735C08 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					AFFA02EA1CEF0257006C184E = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -682,11 +737,20 @@
 				AFFA035D1CF5EBD8006C184E /* 队列的链式存储结构（单链队列） */,
 				AFFA036D1CF7F88E006C184E /* 队列的顺序表示和实现（循环队列） */,
 				AFFA037B1CF86BA9006C184E /* 串的定长顺序存储结构 */,
+				AF0E499F1CFC851300735C08 /* 串的堆分配存储结构 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AF0E499C1CFC851300735C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0E49A31CFC851400735C08 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFFA02E71CEF0257006C184E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -778,6 +842,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AF0E49A41CFC851400735C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF0E49A51CFC851400735C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		AFFA02D71CEF01A3006C184E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1014,6 +1092,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AF0E49A61CFC851400735C08 /* Build configuration list for PBXNativeTarget "串的堆分配存储结构" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0E49A41CFC851400735C08 /* Debug */,
+				AF0E49A51CFC851400735C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		AFFA02CD1CEF01A3006C184E /* Build configuration list for PBXProject "数据结构" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1030,6 +1116,7 @@
 				AFFA02F11CEF0257006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA02FF1CF023EA006C184E /* Build configuration list for PBXNativeTarget "线性表的顺序存储结构（顺序表）" */ = {
 			isa = XCConfigurationList;
@@ -1038,6 +1125,7 @@
 				AFFA03011CF023EA006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA030F1CF0858F006C184E /* Build configuration list for PBXNativeTarget "线性表的单链表存储结构（线性链表）" */ = {
 			isa = XCConfigurationList;
@@ -1046,6 +1134,7 @@
 				AFFA03111CF0858F006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA031E1CF19093006C184E /* Build configuration list for PBXNativeTarget "线性表的静态单链表存储结构（静态链表）" */ = {
 			isa = XCConfigurationList;
@@ -1054,6 +1143,7 @@
 				AFFA03201CF19093006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA032C1CF2B968006C184E /* Build configuration list for PBXNativeTarget "设立尾指针的单循环链表" */ = {
 			isa = XCConfigurationList;
@@ -1062,6 +1152,7 @@
 				AFFA032E1CF2B968006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA033B1CF2C7F0006C184E /* Build configuration list for PBXNativeTarget "线性表的双向链表存储结构" */ = {
 			isa = XCConfigurationList;
@@ -1070,6 +1161,7 @@
 				AFFA033D1CF2C7F0006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA03491CF3F330006C184E /* Build configuration list for PBXNativeTarget "栈的顺序存储结构" */ = {
 			isa = XCConfigurationList;
@@ -1078,6 +1170,7 @@
 				AFFA034B1CF3F330006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA03551CF3F5E9006C184E /* Build configuration list for PBXNativeTarget "栈的链式存储结构" */ = {
 			isa = XCConfigurationList;
@@ -1086,6 +1179,7 @@
 				AFFA03571CF3F5E9006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA03621CF5EBD8006C184E /* Build configuration list for PBXNativeTarget "队列的链式存储结构（单链队列）" */ = {
 			isa = XCConfigurationList;
@@ -1094,6 +1188,7 @@
 				AFFA03641CF5EBD8006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA03721CF7F88E006C184E /* Build configuration list for PBXNativeTarget "队列的顺序表示和实现（循环队列）" */ = {
 			isa = XCConfigurationList;
@@ -1102,6 +1197,7 @@
 				AFFA03741CF7F88E006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA03801CF86BA9006C184E /* Build configuration list for PBXNativeTarget "串的定长顺序存储结构" */ = {
 			isa = XCConfigurationList;
@@ -1110,6 +1206,7 @@
 				AFFA03821CF86BA9006C184E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

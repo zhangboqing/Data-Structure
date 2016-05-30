@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>串的堆分配存储结构.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>串的定长顺序存储结构.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -67,6 +72,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>AF0E499F1CFC851300735C08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AFFA02D11CEF01A3006C184E</key>
 		<dict>
 			<key>primary</key>
