@@ -138,6 +138,7 @@
 		AF0E49A71CFC852100735C08 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AF0E49A81CFC855700735C08 /* c4-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c4-2.h"; sourceTree = "<group>"; };
 		AF0E49A91CFC862600735C08 /* bo4-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo4-2.h"; sourceTree = "<group>"; };
+		AF0E49AA1CFE901E00735C08 /* algo41(KMP算法）.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algo41(KMP算法）.h"; sourceTree = "<group>"; };
 		AFFA02EB1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "抽象结构类型的表示与实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFA02ED1CEF0257006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA02F31CEF02BE006C184E /* c1-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c1-1.h"; sourceTree = "<group>"; };
@@ -456,6 +457,7 @@
 				AFFA03831CF86BB5006C184E /* c1.h */,
 				AFFA03841CF86BC3006C184E /* c4-1.h */,
 				AFFA03851CF86C40006C184E /* bo4-1.h */,
+				AF0E49AA1CFE901E00735C08 /* algo41(KMP算法）.h */,
 			);
 			path = "串的定长顺序存储结构";
 			sourceTree = "<group>";
