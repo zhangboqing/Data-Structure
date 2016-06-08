@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>数组的顺序存储结构.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>栈的链式存储结构.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -73,6 +78,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>AF0E499F1CFC851300735C08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF0E49AE1CFEB4A100735C08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF0E49C21D07E69800735C08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
