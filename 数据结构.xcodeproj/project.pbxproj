@@ -139,6 +139,10 @@
 		AF0E49A81CFC855700735C08 /* c4-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c4-2.h"; sourceTree = "<group>"; };
 		AF0E49A91CFC862600735C08 /* bo4-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo4-2.h"; sourceTree = "<group>"; };
 		AF0E49AA1CFE901E00735C08 /* algo41(KMP算法）.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algo41(KMP算法）.h"; sourceTree = "<group>"; };
+		AF0E49BB1D07E55500735C08 /* bo5-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo5-1.h"; sourceTree = "<group>"; };
+		AF0E49BC1D07E55500735C08 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
+		AF0E49BD1D07E55500735C08 /* c5-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c5-1.h"; sourceTree = "<group>"; };
+		AF0E49BE1D07E55500735C08 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA02EB1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "抽象结构类型的表示与实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFA02ED1CEF0257006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA02F31CEF02BE006C184E /* c1-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c1-1.h"; sourceTree = "<group>"; };
@@ -298,6 +302,18 @@
 			path = "串的堆分配存储结构";
 			sourceTree = "<group>";
 		};
+		AF0E49BA1D07E55500735C08 /* 数组的顺序存储结构 */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA02D31CEF01A3006C184E /* Products */,
+				AF0E49BB1D07E55500735C08 /* bo5-1.h */,
+				AF0E49BC1D07E55500735C08 /* c1.h */,
+				AF0E49BD1D07E55500735C08 /* c5-1.h */,
+				AF0E49BE1D07E55500735C08 /* main.c */,
+			);
+			path = "数组的顺序存储结构";
+			sourceTree = "<group>";
+		};
 		AFFA02C91CEF01A3006C184E = {
 			isa = PBXGroup;
 			children = (
@@ -313,7 +329,7 @@
 				AFFA036F1CF7F88E006C184E /* 队列的顺序表示和实现（循环队列） */,
 				AFFA037D1CF86BA9006C184E /* 串的定长顺序存储结构 */,
 				AF0E49A11CFC851300735C08 /* 串的堆分配存储结构 */,
-				AFFA02D31CEF01A3006C184E /* Products */,
+				AF0E49BA1D07E55500735C08 /* 数组的顺序存储结构 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -334,6 +350,7 @@
 				AF0E49A01CFC851300735C08 /* 串的堆分配存储结构 */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		AFFA02EC1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {
@@ -1101,6 +1118,7 @@
 				AF0E49A51CFC851400735C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA02CD1CEF01A3006C184E /* Build configuration list for PBXProject "数据结构" */ = {
 			isa = XCConfigurationList;
