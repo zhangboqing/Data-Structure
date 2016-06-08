@@ -5,11 +5,13 @@
 //  Created by 张波清 on 6/8/16.
 //  Copyright © 2016 zhangboqing. All rights reserved.
 //
+#include "c1.h"
+typedef int  ElemType;
+#include "c5-1.h"
+#include "bo5-1.h"
 
-#include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main()
+{
+    
     return 0;
 }

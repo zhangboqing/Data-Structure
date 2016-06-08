@@ -153,7 +153,7 @@
 		AF0E49C51D07E69800735C08 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AF0E49CA1D07E71B00735C08 /* bo5-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo5-1.h"; sourceTree = "<group>"; };
 		AF0E49CB1D07E73400735C08 /* c5-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c5-1.h"; sourceTree = "<group>"; };
-		AF0E49CC1D07E74100735C08 /* c5-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c5-1.h"; sourceTree = "<group>"; };
+		AF0E49CD1D07E7F100735C08 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA02EB1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "抽象结构类型的表示与实现"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/抽象结构类型的表示与实现"; sourceTree = "<absolute>"; };
 		AFFA02ED1CEF0257006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA02F31CEF02BE006C184E /* c1-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c1-1.h"; sourceTree = "<group>"; };
@@ -323,10 +323,10 @@
 		AF0E49C41D07E69800735C08 /* 数组的顺序存储结构 */ = {
 			isa = PBXGroup;
 			children = (
-				AF0E49CB1D07E73400735C08 /* c5-1.h */,
-				AF0E49CC1D07E74100735C08 /* c5-1.h */,
-				AF0E49CA1D07E71B00735C08 /* bo5-1.h */,
 				AF0E49C51D07E69800735C08 /* main.c */,
+				AF0E49CD1D07E7F100735C08 /* c1.h */,
+				AF0E49CB1D07E73400735C08 /* c5-1.h */,
+				AF0E49CA1D07E71B00735C08 /* bo5-1.h */,
 			);
 			path = "数组的顺序存储结构";
 			sourceTree = "<group>";
