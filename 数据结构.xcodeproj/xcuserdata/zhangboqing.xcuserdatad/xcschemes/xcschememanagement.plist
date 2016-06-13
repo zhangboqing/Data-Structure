@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>矩阵的压缩存储.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>线性表的单链表存储结构（线性链表）.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -88,6 +93,11 @@
 			<true/>
 		</dict>
 		<key>AF0E49C21D07E69800735C08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF0E49D11D07F7CE00735C08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
