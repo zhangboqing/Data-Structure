@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>树的二叉链表（孩子－兄弟）存储结构.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>矩阵的压缩存储.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -108,6 +113,11 @@
 			<true/>
 		</dict>
 		<key>AF0E49ED1D0EAFF500735C08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF0E49FC1D12860600735C08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
