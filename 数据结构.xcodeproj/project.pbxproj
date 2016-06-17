@@ -12,6 +12,7 @@
 		AF0E49D51D07F7CE00735C08 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AF0E49D41D07F7CE00735C08 /* main.c */; };
 		AF0E49F11D0EAFF500735C08 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AF0E49F01D0EAFF500735C08 /* main.c */; };
 		AF0E4A001D12860600735C08 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AF0E49FF1D12860600735C08 /* main.c */; };
+		AFC2C6D01D13D7A20076DF90 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC2C6CF1D13D7A20076DF90 /* main.c */; };
 		AFFA02EE1CEF0257006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA02ED1CEF0257006C184E /* main.c */; };
 		AFFA02FE1CF023EA006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA02FD1CF023EA006C184E /* main.c */; };
 		AFFA030E1CF0858F006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA030D1CF0858F006C184E /* main.c */; };
@@ -63,6 +64,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AF0E49FB1D12860600735C08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AFC2C6CB1D13D7A20076DF90 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -173,31 +183,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF0E49A01CFC851300735C08 /* 串的堆分配存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "串的堆分配存储结构"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/串的堆分配存储结构"; sourceTree = "<absolute>"; };
 		AF0E49A21CFC851400735C08 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AF0E49A71CFC852100735C08 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AF0E49A81CFC855700735C08 /* c4-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c4-2.h"; sourceTree = "<group>"; };
 		AF0E49A91CFC862600735C08 /* bo4-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo4-2.h"; sourceTree = "<group>"; };
 		AF0E49AA1CFE901E00735C08 /* algo41(KMP算法）.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algo41(KMP算法）.h"; sourceTree = "<group>"; };
-		AF0E49C31D07E69800735C08 /* 数组的顺序存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "数组的顺序存储结构"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/数组的顺序存储结构"; sourceTree = "<absolute>"; };
 		AF0E49C51D07E69800735C08 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AF0E49CA1D07E71B00735C08 /* bo5-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo5-1.h"; sourceTree = "<group>"; };
 		AF0E49CB1D07E73400735C08 /* c5-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c5-1.h"; sourceTree = "<group>"; };
 		AF0E49CD1D07E7F100735C08 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
-		AF0E49D21D07F7CE00735C08 /* 矩阵的压缩存储 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "矩阵的压缩存储"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/矩阵的压缩存储"; sourceTree = "<absolute>"; };
 		AF0E49D41D07F7CE00735C08 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		AF0E49D91D07F81100735C08 /* 抽象结构类型的表示与实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "抽象结构类型的表示与实现"; path = "数据结构.xcodeproj/抽象结构类型的表示与实现"; sourceTree = "<group>"; };
-		AF0E49DA1D07F81100735C08 /* 线性表的顺序存储结构（顺序表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "线性表的顺序存储结构（顺序表）"; path = "数据结构.xcodeproj/线性表的顺序存储结构（顺序表）"; sourceTree = "<group>"; };
-		AF0E49DB1D07F81100735C08 /* 线性表的单链表存储结构（线性链表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "线性表的单链表存储结构（线性链表）"; path = "数据结构.xcodeproj/线性表的单链表存储结构（线性链表）"; sourceTree = "<group>"; };
-		AF0E49DC1D07F81100735C08 /* 线性表的静态单链表存储结构（静态链表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "线性表的静态单链表存储结构（静态链表）"; path = "数据结构.xcodeproj/线性表的静态单链表存储结构（静态链表）"; sourceTree = "<group>"; };
-		AF0E49DD1D07F81100735C08 /* 设立尾指针的单循环链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "设立尾指针的单循环链表"; path = "数据结构.xcodeproj/设立尾指针的单循环链表"; sourceTree = "<group>"; };
-		AF0E49DE1D07F81100735C08 /* 线性表的双向链表存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "线性表的双向链表存储结构"; path = "数据结构.xcodeproj/线性表的双向链表存储结构"; sourceTree = "<group>"; };
-		AF0E49DF1D07F81100735C08 /* 栈的顺序存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "栈的顺序存储结构"; path = "数据结构.xcodeproj/栈的顺序存储结构"; sourceTree = "<group>"; };
-		AF0E49E01D07F81100735C08 /* 栈的链式存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "栈的链式存储结构"; path = "数据结构.xcodeproj/栈的链式存储结构"; sourceTree = "<group>"; };
-		AF0E49E11D07F81100735C08 /* 队列的链式存储结构（单链队列） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "队列的链式存储结构（单链队列）"; path = "数据结构.xcodeproj/队列的链式存储结构（单链队列）"; sourceTree = "<group>"; };
-		AF0E49E21D07F81100735C08 /* 队列的顺序表示和实现（循环队列） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "队列的顺序表示和实现（循环队列）"; path = "/Users/zhangboqing/Library/Developer/Xcode/DerivedData/数据结构-ggyfapmdvssxkpastrsstfmhduhg/Build/Products/Debug/队列的顺序表示和实现（循环队列）"; sourceTree = "<absolute>"; };
-		AF0E49E31D07F81100735C08 /* 串的定长顺序存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "串的定长顺序存储结构"; path = "/Users/zhangboqing/Library/Developer/Xcode/DerivedData/数据结构-ggyfapmdvssxkpastrsstfmhduhg/Build/Products/Debug/串的定长顺序存储结构"; sourceTree = "<absolute>"; };
-		AF0E49E41D07F81100735C08 /* 串的堆分配存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "串的堆分配存储结构"; path = "/Users/zhangboqing/Library/Developer/Xcode/DerivedData/数据结构-ggyfapmdvssxkpastrsstfmhduhg/Build/Products/Debug/串的堆分配存储结构"; sourceTree = "<absolute>"; };
 		AF0E49E61D07F84500735C08 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AF0E49E71D07F86300735C08 /* c5-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c5-2.h"; sourceTree = "<group>"; };
 		AF0E49E81D07FC6800735C08 /* bo5-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo5-2.h"; sourceTree = "<group>"; };
@@ -213,60 +208,67 @@
 		AF0E4A041D12861C00735C08 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AF0E4A051D12868700735C08 /* c6-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c6-2.h"; sourceTree = "<group>"; };
 		AF0E4A061D1287F800735C08 /* bo6-3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo6-3.h"; sourceTree = "<group>"; };
-		AFFA02EB1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "抽象结构类型的表示与实现"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/抽象结构类型的表示与实现"; sourceTree = "<absolute>"; };
+		AFC2C6AF1D13A9FE0076DF90 /* 抽象结构类型的表示与实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "抽象结构类型的表示与实现"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B01D13A9FE0076DF90 /* 线性表的顺序存储结构（顺序表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "线性表的顺序存储结构（顺序表）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B11D13A9FE0076DF90 /* 线性表的单链表存储结构（线性链表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "线性表的单链表存储结构（线性链表）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B21D13A9FE0076DF90 /* 线性表的静态单链表存储结构（静态链表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "线性表的静态单链表存储结构（静态链表）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B31D13A9FE0076DF90 /* 设立尾指针的单循环链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "设立尾指针的单循环链表"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B41D13A9FE0076DF90 /* 线性表的双向链表存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "线性表的双向链表存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B51D13A9FE0076DF90 /* 栈的顺序存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "栈的顺序存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B61D13A9FE0076DF90 /* 栈的链式存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "栈的链式存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B71D13A9FE0076DF90 /* 队列的链式存储结构（单链队列） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "队列的链式存储结构（单链队列）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B81D13A9FE0076DF90 /* 队列的顺序表示和实现（循环队列） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "队列的顺序表示和实现（循环队列）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6B91D13A9FE0076DF90 /* 串的定长顺序存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "串的定长顺序存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6BA1D13A9FE0076DF90 /* 串的堆分配存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "串的堆分配存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6BB1D13A9FE0076DF90 /* 数组的顺序存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数组的顺序存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6BC1D13A9FE0076DF90 /* 矩阵的压缩存储 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "矩阵的压缩存储"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6CD1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "赫夫曼树和赫夫曼编码的存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6CF1D13D7A20076DF90 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AFC2C6D41D13D80F0076DF90 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
+		AFC2C6D51D13D8340076DF90 /* c6-3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c6-3.h"; sourceTree = "<group>"; };
 		AFFA02ED1CEF0257006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA02F31CEF02BE006C184E /* c1-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c1-1.h"; sourceTree = "<group>"; };
 		AFFA02F41CEF0485006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA02F51CEF05DE006C184E /* bo1-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo1-1.h"; sourceTree = "<group>"; };
 		AFFA02F61CEF0ED1006C184E /* func1-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "func1-1.h"; sourceTree = "<group>"; };
-		AFFA02FB1CF023EA006C184E /* 线性表的顺序存储结构（顺序表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "线性表的顺序存储结构（顺序表）"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/线性表的顺序存储结构（顺序表）"; sourceTree = "<absolute>"; };
 		AFFA02FD1CF023EA006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA03021CF0240A006C184E /* c2-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c2-1.h"; sourceTree = "<group>"; };
 		AFFA03031CF025BF006C184E /* bo2-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-1.h"; sourceTree = "<group>"; };
 		AFFA03041CF03953006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA03051CF045F5006C184E /* func2-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "func2-1.h"; sourceTree = "<group>"; };
 		AFFA03061CF04B07006C184E /* func2-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "func2-2.h"; sourceTree = "<group>"; };
-		AFFA030B1CF0858F006C184E /* 线性表的单链表存储结构（线性链表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "线性表的单链表存储结构（线性链表）"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/线性表的单链表存储结构（线性链表）"; sourceTree = "<absolute>"; };
 		AFFA030D1CF0858F006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA03121CF08A49006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA03131CF08A70006C184E /* c2-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c2-2.h"; sourceTree = "<group>"; };
 		AFFA03141CF08B37006C184E /* bo2-2(带头结点的).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-2(带头结点的).h"; sourceTree = "<group>"; };
 		AFFA03151CF180C4006C184E /* bo2-3(不带头结点).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-3(不带头结点).h"; sourceTree = "<group>"; };
-		AFFA031A1CF19093006C184E /* 线性表的静态单链表存储结构（静态链表） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "线性表的静态单链表存储结构（静态链表）"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/线性表的静态单链表存储结构（静态链表）"; sourceTree = "<absolute>"; };
 		AFFA031C1CF19093006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA03211CF190B2006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA03221CF190CC006C184E /* c2-3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c2-3.h"; sourceTree = "<group>"; };
 		AFFA03231CF193C9006C184E /* bo2-5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-5.h"; sourceTree = "<group>"; };
-		AFFA03281CF2B968006C184E /* 设立尾指针的单循环链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "设立尾指针的单循环链表"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/设立尾指针的单循环链表"; sourceTree = "<absolute>"; };
 		AFFA032A1CF2B968006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA032F1CF2B985006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA03311CF2B9AD006C184E /* bo2-6(带头结点).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-6(带头结点).h"; sourceTree = "<group>"; };
 		AFFA03321CF2BCDF006C184E /* c2-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c2-2.h"; sourceTree = "<group>"; };
-		AFFA03371CF2C7F0006C184E /* 线性表的双向链表存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "线性表的双向链表存储结构"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/线性表的双向链表存储结构"; sourceTree = "<absolute>"; };
 		AFFA03391CF2C7F0006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA033E1CF2C801006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA033F1CF2C88C006C184E /* c2-4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c2-4.h"; sourceTree = "<group>"; };
 		AFFA03401CF2CA1B006C184E /* bo2-7(带头结点）.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-7(带头结点）.h"; sourceTree = "<group>"; };
-		AFFA03451CF3F330006C184E /* 栈的顺序存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "栈的顺序存储结构"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/栈的顺序存储结构"; sourceTree = "<absolute>"; };
 		AFFA03471CF3F330006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA034C1CF3F599006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
-		AFFA03511CF3F5E9006C184E /* 栈的链式存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "栈的链式存储结构"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/栈的链式存储结构"; sourceTree = "<absolute>"; };
 		AFFA03531CF3F5E9006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA03581CF3F62D006C184E /* c3-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c3-1.h"; sourceTree = "<group>"; };
 		AFFA03591CF3F814006C184E /* bo3-1(顺序栈）.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo3-1(顺序栈）.h"; sourceTree = "<group>"; };
-		AFFA035E1CF5EBD8006C184E /* 队列的链式存储结构（单链队列） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "队列的链式存储结构（单链队列）"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/队列的链式存储结构（单链队列）"; sourceTree = "<absolute>"; };
 		AFFA03601CF5EBD8006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA03651CF5EBF8006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA03661CF5EC1D006C184E /* c3-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c3-2.h"; sourceTree = "<group>"; };
 		AFFA03671CF5F2FF006C184E /* bo3-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo3-2.h"; sourceTree = "<group>"; };
 		AFFA03681CF6C53D006C184E /* bo3-3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo3-3.h"; sourceTree = "<group>"; };
 		AFFA03691CF6C812006C184E /* bo2-2(带头结点的).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-2(带头结点的).h"; sourceTree = "<group>"; };
-		AFFA036E1CF7F88E006C184E /* 队列的顺序表示和实现（循环队列） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "队列的顺序表示和实现（循环队列）"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/队列的顺序表示和实现（循环队列）"; sourceTree = "<absolute>"; };
 		AFFA03701CF7F88E006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA03751CF7F8A2006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA03761CF7F8BF006C184E /* c3-3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c3-3.h"; sourceTree = "<group>"; };
 		AFFA03771CF80121006C184E /* bo3-4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo3-4.h"; sourceTree = "<group>"; };
-		AFFA037C1CF86BA9006C184E /* 串的定长顺序存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "串的定长顺序存储结构"; path = "/Users/zhangboqing/Documents/数据结构/Data Structure/build/Debug/串的定长顺序存储结构"; sourceTree = "<absolute>"; };
 		AFFA037E1CF86BA9006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA03831CF86BB5006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA03841CF86BC3006C184E /* c4-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c4-1.h"; sourceTree = "<group>"; };
@@ -303,6 +305,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AF0E49FA1D12860600735C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC2C6CA1D13D7A20076DF90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,26 +432,6 @@
 			path = "矩阵的压缩存储";
 			sourceTree = "<group>";
 		};
-		AF0E49E51D07F81100735C08 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF0E49D91D07F81100735C08 /* 抽象结构类型的表示与实现 */,
-				AF0E49DA1D07F81100735C08 /* 线性表的顺序存储结构（顺序表） */,
-				AF0E49DB1D07F81100735C08 /* 线性表的单链表存储结构（线性链表） */,
-				AF0E49DC1D07F81100735C08 /* 线性表的静态单链表存储结构（静态链表） */,
-				AF0E49DD1D07F81100735C08 /* 设立尾指针的单循环链表 */,
-				AF0E49DE1D07F81100735C08 /* 线性表的双向链表存储结构 */,
-				AF0E49DF1D07F81100735C08 /* 栈的顺序存储结构 */,
-				AF0E49E01D07F81100735C08 /* 栈的链式存储结构 */,
-				AF0E49E11D07F81100735C08 /* 队列的链式存储结构（单链队列） */,
-				AF0E49E21D07F81100735C08 /* 队列的顺序表示和实现（循环队列） */,
-				AF0E49E31D07F81100735C08 /* 串的定长顺序存储结构 */,
-				AF0E49E41D07F81100735C08 /* 串的堆分配存储结构 */,
-			);
-			name = Products;
-			path = "/Users/zhangboqing/Documents/数据结构/Data Structure/数组的顺序存储结构/..";
-			sourceTree = "<absolute>";
-		};
 		AF0E49EF1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,6 +455,40 @@
 			path = "树的二叉链表（孩子－兄弟）存储结构";
 			sourceTree = "<group>";
 		};
+		AFC2C6C31D13D73A0076DF90 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC2C6CD1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */,
+				AF0E49EE1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */,
+				AF0E49FD1D12860600735C08 /* 树的二叉链表（孩子－兄弟）存储结构 */,
+				AFC2C6AF1D13A9FE0076DF90 /* 抽象结构类型的表示与实现 */,
+				AFC2C6B01D13A9FE0076DF90 /* 线性表的顺序存储结构（顺序表） */,
+				AFC2C6B11D13A9FE0076DF90 /* 线性表的单链表存储结构（线性链表） */,
+				AFC2C6B21D13A9FE0076DF90 /* 线性表的静态单链表存储结构（静态链表） */,
+				AFC2C6B31D13A9FE0076DF90 /* 设立尾指针的单循环链表 */,
+				AFC2C6B41D13A9FE0076DF90 /* 线性表的双向链表存储结构 */,
+				AFC2C6B51D13A9FE0076DF90 /* 栈的顺序存储结构 */,
+				AFC2C6B61D13A9FE0076DF90 /* 栈的链式存储结构 */,
+				AFC2C6B71D13A9FE0076DF90 /* 队列的链式存储结构（单链队列） */,
+				AFC2C6B81D13A9FE0076DF90 /* 队列的顺序表示和实现（循环队列） */,
+				AFC2C6B91D13A9FE0076DF90 /* 串的定长顺序存储结构 */,
+				AFC2C6BA1D13A9FE0076DF90 /* 串的堆分配存储结构 */,
+				AFC2C6BB1D13A9FE0076DF90 /* 数组的顺序存储结构 */,
+				AFC2C6BC1D13A9FE0076DF90 /* 矩阵的压缩存储 */,
+			);
+			path = products;
+			sourceTree = "<group>";
+		};
+		AFC2C6CE1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */ = {
+			isa = PBXGroup;
+			children = (
+				AFC2C6CF1D13D7A20076DF90 /* main.c */,
+				AFC2C6D41D13D80F0076DF90 /* c1.h */,
+				AFC2C6D51D13D8340076DF90 /* c6-3.h */,
+			);
+			path = "赫夫曼树和赫夫曼编码的存储结构";
+			sourceTree = "<group>";
+		};
 		AFFA02C91CEF01A3006C184E = {
 			isa = PBXGroup;
 			children = (
@@ -485,9 +508,8 @@
 				AF0E49D31D07F7CE00735C08 /* 矩阵的压缩存储 */,
 				AF0E49EF1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */,
 				AF0E49FE1D12860600735C08 /* 树的二叉链表（孩子－兄弟）存储结构 */,
-				AF0E49E51D07F81100735C08 /* Products */,
-				AF0E49EE1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */,
-				AF0E49FD1D12860600735C08 /* 树的二叉链表（孩子－兄弟）存储结构 */,
+				AFC2C6CE1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */,
+				AFC2C6C31D13D73A0076DF90 /* products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -634,7 +656,7 @@
 			);
 			name = "串的堆分配存储结构";
 			productName = "串的堆分配存储结构";
-			productReference = AF0E49A01CFC851300735C08 /* 串的堆分配存储结构 */;
+			productReference = AFC2C6BA1D13A9FE0076DF90 /* 串的堆分配存储结构 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AF0E49C21D07E69800735C08 /* 数组的顺序存储结构 */ = {
@@ -651,7 +673,7 @@
 			);
 			name = "数组的顺序存储结构";
 			productName = "数组的顺序存储结构";
-			productReference = AF0E49C31D07E69800735C08 /* 数组的顺序存储结构 */;
+			productReference = AFC2C6BB1D13A9FE0076DF90 /* 数组的顺序存储结构 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AF0E49D11D07F7CE00735C08 /* 矩阵的压缩存储 */ = {
@@ -668,7 +690,7 @@
 			);
 			name = "矩阵的压缩存储";
 			productName = "矩阵的压缩存储";
-			productReference = AF0E49D21D07F7CE00735C08 /* 矩阵的压缩存储 */;
+			productReference = AFC2C6BC1D13A9FE0076DF90 /* 矩阵的压缩存储 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AF0E49ED1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */ = {
@@ -705,6 +727,23 @@
 			productReference = AF0E49FD1D12860600735C08 /* 树的二叉链表（孩子－兄弟）存储结构 */;
 			productType = "com.apple.product-type.tool";
 		};
+		AFC2C6CC1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC2C6D11D13D7A20076DF90 /* Build configuration list for PBXNativeTarget "赫夫曼树和赫夫曼编码的存储结构" */;
+			buildPhases = (
+				AFC2C6C91D13D7A20076DF90 /* Sources */,
+				AFC2C6CA1D13D7A20076DF90 /* Frameworks */,
+				AFC2C6CB1D13D7A20076DF90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "赫夫曼树和赫夫曼编码的存储结构";
+			productName = "赫夫曼树和赫夫曼编码的存储结构";
+			productReference = AFC2C6CD1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */;
+			productType = "com.apple.product-type.tool";
+		};
 		AFFA02EA1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFFA02EF1CEF0257006C184E /* Build configuration list for PBXNativeTarget "抽象结构类型的表示与实现" */;
@@ -719,7 +758,7 @@
 			);
 			name = "抽象结构类型的表示与实现";
 			productName = "抽象结构类型的表示与实现";
-			productReference = AFFA02EB1CEF0257006C184E /* 抽象结构类型的表示与实现 */;
+			productReference = AFC2C6AF1D13A9FE0076DF90 /* 抽象结构类型的表示与实现 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA02FA1CF023EA006C184E /* 线性表的顺序存储结构（顺序表） */ = {
@@ -736,7 +775,7 @@
 			);
 			name = "线性表的顺序存储结构（顺序表）";
 			productName = "线性表的顺序存储结构（顺序表）";
-			productReference = AFFA02FB1CF023EA006C184E /* 线性表的顺序存储结构（顺序表） */;
+			productReference = AFC2C6B01D13A9FE0076DF90 /* 线性表的顺序存储结构（顺序表） */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA030A1CF0858F006C184E /* 线性表的单链表存储结构（线性链表） */ = {
@@ -753,7 +792,7 @@
 			);
 			name = "线性表的单链表存储结构（线性链表）";
 			productName = "线性表的单链表存储结构（线性链表）";
-			productReference = AFFA030B1CF0858F006C184E /* 线性表的单链表存储结构（线性链表） */;
+			productReference = AFC2C6B11D13A9FE0076DF90 /* 线性表的单链表存储结构（线性链表） */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA03191CF19093006C184E /* 线性表的静态单链表存储结构（静态链表） */ = {
@@ -770,7 +809,7 @@
 			);
 			name = "线性表的静态单链表存储结构（静态链表）";
 			productName = "线性表的静态单链表存储结构（静态链表）";
-			productReference = AFFA031A1CF19093006C184E /* 线性表的静态单链表存储结构（静态链表） */;
+			productReference = AFC2C6B21D13A9FE0076DF90 /* 线性表的静态单链表存储结构（静态链表） */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA03271CF2B968006C184E /* 设立尾指针的单循环链表 */ = {
@@ -787,7 +826,7 @@
 			);
 			name = "设立尾指针的单循环链表";
 			productName = "设立尾指针的单循环链表";
-			productReference = AFFA03281CF2B968006C184E /* 设立尾指针的单循环链表 */;
+			productReference = AFC2C6B31D13A9FE0076DF90 /* 设立尾指针的单循环链表 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA03361CF2C7F0006C184E /* 线性表的双向链表存储结构 */ = {
@@ -804,7 +843,7 @@
 			);
 			name = "线性表的双向链表存储结构";
 			productName = "线性表的双向链表存储结构";
-			productReference = AFFA03371CF2C7F0006C184E /* 线性表的双向链表存储结构 */;
+			productReference = AFC2C6B41D13A9FE0076DF90 /* 线性表的双向链表存储结构 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA03441CF3F330006C184E /* 栈的顺序存储结构 */ = {
@@ -821,7 +860,7 @@
 			);
 			name = "栈的顺序存储结构";
 			productName = "栈的顺序存储结构";
-			productReference = AFFA03451CF3F330006C184E /* 栈的顺序存储结构 */;
+			productReference = AFC2C6B51D13A9FE0076DF90 /* 栈的顺序存储结构 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA03501CF3F5E9006C184E /* 栈的链式存储结构 */ = {
@@ -838,7 +877,7 @@
 			);
 			name = "栈的链式存储结构";
 			productName = "栈的链式存储结构";
-			productReference = AFFA03511CF3F5E9006C184E /* 栈的链式存储结构 */;
+			productReference = AFC2C6B61D13A9FE0076DF90 /* 栈的链式存储结构 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA035D1CF5EBD8006C184E /* 队列的链式存储结构（单链队列） */ = {
@@ -855,7 +894,7 @@
 			);
 			name = "队列的链式存储结构（单链队列）";
 			productName = "队列的链式存储结构（单链队列）";
-			productReference = AFFA035E1CF5EBD8006C184E /* 队列的链式存储结构（单链队列） */;
+			productReference = AFC2C6B71D13A9FE0076DF90 /* 队列的链式存储结构（单链队列） */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA036D1CF7F88E006C184E /* 队列的顺序表示和实现（循环队列） */ = {
@@ -872,7 +911,7 @@
 			);
 			name = "队列的顺序表示和实现（循环队列）";
 			productName = "队列的顺序表示和实现（循环队列）";
-			productReference = AFFA036E1CF7F88E006C184E /* 队列的顺序表示和实现（循环队列） */;
+			productReference = AFC2C6B81D13A9FE0076DF90 /* 队列的顺序表示和实现（循环队列） */;
 			productType = "com.apple.product-type.tool";
 		};
 		AFFA037B1CF86BA9006C184E /* 串的定长顺序存储结构 */ = {
@@ -889,7 +928,7 @@
 			);
 			name = "串的定长顺序存储结构";
 			productName = "串的定长顺序存储结构";
-			productReference = AFFA037C1CF86BA9006C184E /* 串的定长顺序存储结构 */;
+			productReference = AFC2C6B91D13A9FE0076DF90 /* 串的定长顺序存储结构 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -915,6 +954,9 @@
 					};
 					AF0E49FC1D12860600735C08 = {
 						CreatedOnToolsVersion = 7.2.1;
+					};
+					AFC2C6CC1D13D7A20076DF90 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 					AFFA02EA1CEF0257006C184E = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -979,6 +1021,7 @@
 				AF0E49D11D07F7CE00735C08 /* 矩阵的压缩存储 */,
 				AF0E49ED1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */,
 				AF0E49FC1D12860600735C08 /* 树的二叉链表（孩子－兄弟）存储结构 */,
+				AFC2C6CC1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */,
 			);
 		};
 /* End PBXProject section */
@@ -1021,6 +1064,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF0E4A001D12860600735C08 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC2C6C91D13D7A20076DF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC2C6D01D13D7A20076DF90 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1181,6 +1232,22 @@
 		AF0E4A031D12860600735C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFC2C6D21D13D7A20076DF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFC2C6D31D13D7A20076DF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1437,6 +1504,7 @@
 				AF0E49C91D07E69800735C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF0E49D61D07F7CE00735C08 /* Build configuration list for PBXNativeTarget "矩阵的压缩存储" */ = {
 			isa = XCConfigurationList;
@@ -1445,6 +1513,7 @@
 				AF0E49D81D07F7CE00735C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF0E49F21D0EAFF500735C08 /* Build configuration list for PBXNativeTarget "二叉树的二叉链表存储结构" */ = {
 			isa = XCConfigurationList;
@@ -1453,12 +1522,22 @@
 				AF0E49F41D0EAFF500735C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF0E4A011D12860600735C08 /* Build configuration list for PBXNativeTarget "树的二叉链表（孩子－兄弟）存储结构" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF0E4A021D12860600735C08 /* Debug */,
 				AF0E4A031D12860600735C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC2C6D11D13D7A20076DF90 /* Build configuration list for PBXNativeTarget "赫夫曼树和赫夫曼编码的存储结构" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC2C6D21D13D7A20076DF90 /* Debug */,
+				AFC2C6D31D13D7A20076DF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
