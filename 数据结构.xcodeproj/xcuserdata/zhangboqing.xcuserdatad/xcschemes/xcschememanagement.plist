@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>图的数组（邻接矩阵）存储结构.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>抽象结构类型的表示与实现.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -138,6 +143,11 @@
 			<true/>
 		</dict>
 		<key>AFC2C6CC1D13D7A20076DF90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFC2C6D91D13E1D80076DF90</key>
 		<dict>
 			<key>primary</key>
 			<true/>

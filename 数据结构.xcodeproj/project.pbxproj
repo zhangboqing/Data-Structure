@@ -13,6 +13,7 @@
 		AF0E49F11D0EAFF500735C08 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AF0E49F01D0EAFF500735C08 /* main.c */; };
 		AF0E4A001D12860600735C08 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AF0E49FF1D12860600735C08 /* main.c */; };
 		AFC2C6D01D13D7A20076DF90 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC2C6CF1D13D7A20076DF90 /* main.c */; };
+		AFC2C6DD1D13E1D80076DF90 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFC2C6DC1D13E1D80076DF90 /* main.c */; };
 		AFFA02EE1CEF0257006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA02ED1CEF0257006C184E /* main.c */; };
 		AFFA02FE1CF023EA006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA02FD1CF023EA006C184E /* main.c */; };
 		AFFA030E1CF0858F006C184E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AFFA030D1CF0858F006C184E /* main.c */; };
@@ -73,6 +74,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AFC2C6CB1D13D7A20076DF90 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AFC2C6D81D13E1D80076DF90 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -226,6 +236,11 @@
 		AFC2C6CF1D13D7A20076DF90 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFC2C6D41D13D80F0076DF90 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFC2C6D51D13D8340076DF90 /* c6-3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c6-3.h"; sourceTree = "<group>"; };
+		AFC2C6DA1D13E1D80076DF90 /* 图的数组（邻接矩阵）存储结构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "图的数组（邻接矩阵）存储结构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC2C6DC1D13E1D80076DF90 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AFC2C6E11D13E2080076DF90 /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
+		AFC2C6E21D13E2290076DF90 /* c7-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c7-1.h"; sourceTree = "<group>"; };
+		AFC2C6E31D13E98C0076DF90 /* func7-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "func7-1.h"; sourceTree = "<group>"; };
 		AFFA02ED1CEF0257006C184E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AFFA02F31CEF02BE006C184E /* c1-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c1-1.h"; sourceTree = "<group>"; };
 		AFFA02F41CEF0485006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
@@ -273,6 +288,8 @@
 		AFFA03831CF86BB5006C184E /* c1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
 		AFFA03841CF86BC3006C184E /* c4-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c4-1.h"; sourceTree = "<group>"; };
 		AFFA03851CF86C40006C184E /* bo4-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo4-1.h"; sourceTree = "<group>"; };
+		AFFED7D31D2A4596002DC237 /* func7-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "func7-2.h"; sourceTree = "<group>"; };
+		AFFED7D41D2A620F002DC237 /* bo7-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo7-1.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +329,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AFC2C6CA1D13D7A20076DF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC2C6D71D13E1D80076DF90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,6 +482,7 @@
 		AFC2C6C31D13D73A0076DF90 /* products */ = {
 			isa = PBXGroup;
 			children = (
+				AFC2C6DA1D13E1D80076DF90 /* 图的数组（邻接矩阵）存储结构 */,
 				AFC2C6CD1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */,
 				AF0E49EE1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */,
 				AF0E49FD1D12860600735C08 /* 树的二叉链表（孩子－兄弟）存储结构 */,
@@ -489,6 +514,19 @@
 			path = "赫夫曼树和赫夫曼编码的存储结构";
 			sourceTree = "<group>";
 		};
+		AFC2C6DB1D13E1D80076DF90 /* 图的数组（邻接矩阵）存储结构 */ = {
+			isa = PBXGroup;
+			children = (
+				AFC2C6DC1D13E1D80076DF90 /* main.c */,
+				AFC2C6E11D13E2080076DF90 /* c1.h */,
+				AFC2C6E21D13E2290076DF90 /* c7-1.h */,
+				AFC2C6E31D13E98C0076DF90 /* func7-1.h */,
+				AFFED7D31D2A4596002DC237 /* func7-2.h */,
+				AFFED7D41D2A620F002DC237 /* bo7-1.h */,
+			);
+			path = "图的数组（邻接矩阵）存储结构";
+			sourceTree = "<group>";
+		};
 		AFFA02C91CEF01A3006C184E = {
 			isa = PBXGroup;
 			children = (
@@ -509,6 +547,7 @@
 				AF0E49EF1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */,
 				AF0E49FE1D12860600735C08 /* 树的二叉链表（孩子－兄弟）存储结构 */,
 				AFC2C6CE1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */,
+				AFC2C6DB1D13E1D80076DF90 /* 图的数组（邻接矩阵）存储结构 */,
 				AFC2C6C31D13D73A0076DF90 /* products */,
 			);
 			sourceTree = "<group>";
@@ -744,6 +783,23 @@
 			productReference = AFC2C6CD1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */;
 			productType = "com.apple.product-type.tool";
 		};
+		AFC2C6D91D13E1D80076DF90 /* 图的数组（邻接矩阵）存储结构 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC2C6DE1D13E1D80076DF90 /* Build configuration list for PBXNativeTarget "图的数组（邻接矩阵）存储结构" */;
+			buildPhases = (
+				AFC2C6D61D13E1D80076DF90 /* Sources */,
+				AFC2C6D71D13E1D80076DF90 /* Frameworks */,
+				AFC2C6D81D13E1D80076DF90 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图的数组（邻接矩阵）存储结构";
+			productName = "图的数组（邻接矩阵）存储结构";
+			productReference = AFC2C6DA1D13E1D80076DF90 /* 图的数组（邻接矩阵）存储结构 */;
+			productType = "com.apple.product-type.tool";
+		};
 		AFFA02EA1CEF0257006C184E /* 抽象结构类型的表示与实现 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFFA02EF1CEF0257006C184E /* Build configuration list for PBXNativeTarget "抽象结构类型的表示与实现" */;
@@ -958,6 +1014,9 @@
 					AFC2C6CC1D13D7A20076DF90 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					AFC2C6D91D13E1D80076DF90 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					AFFA02EA1CEF0257006C184E = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -1022,6 +1081,7 @@
 				AF0E49ED1D0EAFF500735C08 /* 二叉树的二叉链表存储结构 */,
 				AF0E49FC1D12860600735C08 /* 树的二叉链表（孩子－兄弟）存储结构 */,
 				AFC2C6CC1D13D7A20076DF90 /* 赫夫曼树和赫夫曼编码的存储结构 */,
+				AFC2C6D91D13E1D80076DF90 /* 图的数组（邻接矩阵）存储结构 */,
 			);
 		};
 /* End PBXProject section */
@@ -1072,6 +1132,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFC2C6D01D13D7A20076DF90 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC2C6D61D13E1D80076DF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC2C6DD1D13E1D80076DF90 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1245,6 +1313,22 @@
 			name = Debug;
 		};
 		AFC2C6D31D13D7A20076DF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFC2C6DF1D13E1D80076DF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFC2C6E01D13E1D80076DF90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1540,6 +1624,16 @@
 				AFC2C6D31D13D7A20076DF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC2C6DE1D13E1D80076DF90 /* Build configuration list for PBXNativeTarget "图的数组（邻接矩阵）存储结构" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC2C6DF1D13E1D80076DF90 /* Debug */,
+				AFC2C6E01D13E1D80076DF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFA02CD1CEF01A3006C184E /* Build configuration list for PBXProject "数据结构" */ = {
 			isa = XCConfigurationList;
